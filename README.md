@@ -24,6 +24,11 @@
 
 # 🎮 Guess The Number Game
 
+<p align="center">
+  <img src="assets/guess-the-number-banner.png" alt="Guess The Number Game Banner" width="100%">
+</p>
+
+
 <div align="center">
 
 **A feature-rich Python console game built with modular programming, persistent score tracking, game history, and player statistics.**
@@ -216,4 +221,4 @@ This project is created for educational and learning purposes.
 
 git add README.md
 git commit -m "Improve project documentation"
-git pushS
+git push
