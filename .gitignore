@@ -1,0 +1,20 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime data (optional)
+# Uncomment if you don't want to upload these files
+# game_history.txt
+# highscore.txt
+# statistics.txt
