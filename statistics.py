@@ -3,7 +3,13 @@
 # Statistics Module
 # ==========================================
 
-STATISTICS_FILE = "statistics.txt"
+import os
+
+APP_FOLDER = os.path.join(os.getenv("LOCALAPPDATA"), "GuessTheNumber")
+os.makedirs(APP_FOLDER, exist_ok=True)
+
+STATISTICS_FILE = os.path.join(APP_FOLDER, "statistics.txt")
+
 
 
 def get_statistics():

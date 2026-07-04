@@ -8,6 +8,7 @@
 from game import start_game
 from scoreboard import get_high_score
 from statistics import display_statistics
+from history import HISTORY_FILE
 import os
 
 
@@ -57,11 +58,11 @@ def show_history():
     print("📜 GAME HISTORY")
     print("=" * 60)
 
-    if not os.path.exists("game_history.txt"):
-        print("No history found.")
-        return
+    if not os.path.exists(HISTORY_FILE):
+       print("No history found.")
+       return
 
-    with open("game_history.txt", "r") as file:
+    with open(HISTORY_FILE, "r") as file:
 
         data = file.read()
 
