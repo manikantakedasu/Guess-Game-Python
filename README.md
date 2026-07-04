@@ -1,83 +1,131 @@
 # 🎮 Guess The Number Game
 
-A professional Python console-based game developed as part of the **Cognifyz Technologies Software Development Internship**.
+## 📖 About the Project
+
+## ✨ Features
+
+## 🛠️ Technologies Used
+
+## 📂 Project Structure
+
+## 🚀 Installation
+
+## ▶️ How to Run
+
+## 🎯 Gameplay
+
+## 📸 Screenshots
+
+## 🔮 Future Improvements
+
+## 👨‍💻 Author
+
+## ⭐ Support
+
+# 🎮 Guess The Number Game
+
+<div align="center">
+
+**A feature-rich Python console game built with modular programming, persistent score tracking, game history, and player statistics.**
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![License](https://img.shields.io/badge/License-Educational-orange)
+
+</div>
 
 ---
 
-# 📌 Project Description
+# 📖 About the Project
 
-Guess The Number Game is an interactive Python console application where the player has to guess a randomly generated number within limited lives.
+Guess The Number Game is a Python console application where players try to guess a randomly generated number within a limited number of attempts.
 
-The game offers multiple difficulty levels, smart hints, countdown animation, colorful console output, score calculation, player statistics, game history, and a professional menu-driven interface.
+The project demonstrates important Python concepts including:
+
+- Modular Programming
+- Functions
+- File Handling
+- Random Number Generation
+- Loops
+- Conditional Statements
+- Score Management
+- Statistics Tracking
+
+This project was built to strengthen Python programming skills while following a clean and organized project structure.
 
 ---
 
 # ✨ Features
 
-- 👤 Player Name
-- 👋 Personalized Welcome Board
-- 📋 Main Menu
-- 🎯 Multiple Difficulty Levels
-  - Easy
-  - Medium
-  - Hard
-- 🔢 Random Number Generation
-- ❤️ Lives System
-- 💡 Smart Hint System
-- ⏳ Countdown (3...2...1...GO!)
-- 🏆 Score Calculation
-- 🥇 Gold / 🥈 Silver / 🥉 Bronze Ranking
-- ⏱️ Time Tracking
-- 📊 Player Statistics
-- 📜 Game History
-- 🏆 High Score System
-- 🔙 Return to Main Menu
-- 🎨 Colorful Console Interface
-- ❌ Input Validation
-- 🔄 Replay Support
+| Feature | Available |
+|----------|-----------|
+| 🎯 Multiple Difficulty Levels | ✅ |
+| 🔢 Random Number Generation | ✅ |
+| ⏳ Limited Attempts | ✅ |
+| 🏆 High Score Tracking | ✅ |
+| 📊 Player Statistics | ✅ |
+| 📝 Game History | ✅ |
+| 💾 Automatic Data Saving | ✅ |
+| 🔄 Play Again Option | ✅ |
+| 📂 Modular Python Structure | ✅ |
 
 ---
 
-# 🛠️ Technologies Used
+# 🛠️ Tech Stack
 
-- Python 3.14
-- Random Module
-- Time Module
-- Colorama Module
-- File Handling
+| Technology | Usage |
+|------------|-------|
+| Python | Core Programming Language |
+| Random Module | Number Generation |
+| File Handling | Save Scores & Statistics |
+| VS Code | Development |
+| Git | Version Control |
+| GitHub | Repository Hosting |
 
 ---
 
 # 📂 Project Structure
 
 ```text
-Guess_The_Number_Game/
-
-│── main.py
-│── game.py
-│── history.py
-│── statistics.py
-│── scoreboard.py
-│── README.md
-│── requirements.txt
-│── highscore.txt
-│── statistics.txt
-│── game_history.txt
+Guess-Game-Python
+│
+├── game.py
+├── main.py
+├── history.py
+├── scoreboard.py
+├── statistics.py
+├── README.md
+├── requirements.txt
+├── highscore.txt
+├── game_history.txt
+├── statistics.txt
+└── .gitignore
 ```
 
 ---
 
-# ▶️ How to Run
+# 🚀 Getting Started
 
-### 1️⃣ Open the project in VS Code
+## Clone the Repository
 
-### 2️⃣ Install the required library
+```bash
+git clone https://github.com/manikantakedasu/Guess-Game-Python.git
+```
+
+## Navigate into the Project
+
+```bash
+cd Guess-Game-Python
+```
+
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the project
+## Run the Game
 
 ```bash
 python main.py
@@ -85,171 +133,83 @@ python main.py
 
 ---
 
-# 🎮 Game Flow
+# 🎮 Gameplay
 
-```text
-Game Title
-      ↓
-Enter Player Name
-      ↓
-Personalized Welcome Board
-      ↓
-Main Menu
-      ↓
-Play Game
-      ↓
-Select Difficulty
-      ↓
-Countdown (3...2...1...GO!)
-      ↓
-Guess the Number
-      ↓
-Game Summary
-      ↓
-Statistics Updated
-      ↓
-Return to Main Menu
-```
+1. Start the application.
+2. Select a difficulty level.
+3. Guess the hidden number.
+4. You have a limited number of attempts.
+5. Win the game by guessing the correct number.
+6. View your statistics and game history.
+7. Play again to beat your high score.
 
 ---
 
-# 🎯 Difficulty Levels
+# 📸 Screenshots
 
-## 🟢 Easy
+> Screenshots will be added in the next update.
 
-- Range : 1 – 10
-- Lives : ❤️❤️❤️❤️❤️
-
----
-
-## 🟡 Medium
-
-- Range : 1 – 50
-- Lives : ❤️❤️❤️❤️
+- 🏠 Main Menu
+- 🎯 Difficulty Selection
+- 🎮 Gameplay
+- 🏆 Winning Screen
+- 📊 Statistics
 
 ---
 
-## 🔴 Hard
+# 📚 What I Learned
 
-- Range : 1 – 100
-- Lives : ❤️❤️❤️
+During this project I practiced:
 
----
-
-# 🏆 Score System
-
-Score depends on:
-
-- Remaining Lives
-- Number of Attempts
-
-Higher score means better performance.
+- Writing modular Python programs
+- Working with multiple Python files
+- Reading and writing files
+- Organizing project structure
+- Using Git and GitHub
+- Managing project versions
 
 ---
 
-# 🥇 Player Ranking
+# 🔮 Future Enhancements
 
-| Score | Rank |
-|-------:|------|
-| 50+ | 🥇 Gold |
-| 30 – 49 | 🥈 Silver |
-| Below 30 | 🥉 Bronze |
-
----
-
-# 📊 Player Statistics
-
-The game automatically stores:
-
-- 🎮 Games Played
-- 🏆 Wins
-- ❌ Losses
-- 📈 Win Percentage
-- 🥇 Highest Score
+- 🎨 GUI Version using Tkinter
+- 🔊 Sound Effects
+- ⏱️ Timer Mode
+- 👥 Multiplayer Support
+- 🌐 Online Leaderboard
+- 💾 Database Integration
 
 ---
 
-# 📜 Game History
-
-Every completed game is saved with:
-
-- Player Name
-- Difficulty
-- Score
-- Result (WIN / LOSE)
-
----
-
-# 🎨 User Experience
-
-This project includes:
-
-- Colorful console output
-- Friendly Welcome Screen
-- Professional Main Menu
-- Countdown Animation
-- Easy Navigation
-- Return to Main Menu option
-
----
-
-# 📚 Concepts Used
-
-- Variables
-- Data Types
-- Operators
-- Conditional Statements
-- Loops
-- Functions
-- Exception Handling
-- Modular Programming
-- Random Number Generation
-- Timer
-- File Handling
-- Console UI Design
-- Python Modules
-
----
-
-# 👨‍💻 Developed By
+# 👨‍💻 Author
 
 **Kedasu Veera Manikanta**
 
-B.Tech – Computer Science & Engineering (AI & ML)
+🎓 B.Tech CSE (AI & ML)
 
-SRM University AP
-
----
-
-# 💼 Internship Project
-
-Developed as part of the
-
-**Cognifyz Technologies – Software Development Internship**
+GitHub Profile:
+https://github.com/manikantakedasu
 
 ---
 
-# 🚀 Future Improvements
+# 🤝 Contributing
 
-Possible future enhancements:
+Suggestions and improvements are always welcome.
 
-- Multiple Player Mode
-- Sound Effects
-- Login System
-- Difficulty Unlock System
-- Leaderboard
-- GUI Version using Tkinter or PyQt
+Feel free to fork the repository and create your own improvements.
 
 ---
 
 # ⭐ Support
 
-If you like this project, consider giving it a ⭐ on GitHub.
+If you like this project,
+
+⭐ **Give this repository a Star on GitHub.**
+
+It motivates me to build more useful open-source projects.
 
 ---
 
-# ❤️ Thank You
+# 📄 License
 
-Thank you for checking out my project!
-
-Happy Coding! 🚀
+This project is created for educational and learning purposes.
